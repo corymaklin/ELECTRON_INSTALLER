@@ -1,0 +1,23 @@
+{
+  "scripts": {
+    "electron": "electron .",
+    "dist": "electron-builder"
+  },
+  "main": "src/main/index.js",
+  "name": "super-electron-app",
+  "description": "This is an example of how to build an installer",
+  "version": "1.0.0",
+  "author": "Cory Maklin",
+  "dependencies": {},
+  "build": {
+    "appId": "12345",
+    "win": {
+      "target": "msi",
+      "icon": "build/icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^3.0.11",
+    "electron-builder": "^20.38.3"
+  }
+}
